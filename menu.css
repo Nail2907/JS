@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'Rubik', sans-serif;
+}
+.menu{
+    width: 80px;
+    display: flex;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.msoft h1{
+    overflow: hidden;
+}
+.msoft{
+    width: 300px;
+    height: 745px;
+    background-color: rgb(3, 3, 93);
+    color: white;
+    display: none;
+}
+h1{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 35px;  
+}
+.iks{
+    padding-left: 50px;
+    font-size: 40px;
+    cursor: pointer;
+}
+.plr{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-left: 130px;
+}
+.plr p{
+    font-size: 20px;
+    cursor: pointer;
+}
+.icon{
+    width: 80px;
+    height: 745px;
+    background-color: rgb(1, 1, 57,0.5);
+    text-align: center;
+    color: white;
+}
+.fa-bars{
+    margin-top: 20px;
+    font-size: 40px;
+    cursor: pointer;
+}
+.icon2{
+    margin-top: 150px;
+    height: 300px;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.icon2 i{
+    cursor: pointer;
+}
